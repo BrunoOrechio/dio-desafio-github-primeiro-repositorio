@@ -1,0 +1,94 @@
+
+	Estrutura de Dados
+			|->É uma estrutura organizada de dados na memória de um computador ou em qualquerm dispositivo
+		          de armazenamento,de forma que os dados passam ser utilizados de forma correta.
+				   
+	Algoritmo
+			|->É um conjunto de instruções estruturadas e ordenadas,seu objetivo é realizar uma tarefa ou 
+			   operação específica.
+		
+	Vetores e Matrizes ou Arrays
+	|	|	|->São estrutuas de dados simples que auxiliam quando há muitas variáveis do mesmo tipo em um
+	|	|	   algoritmo.
+	|	|
+	|	|----->Vetor ou array uni-dimensional
+	|				|->É uma variável que armazena várias variáveis do mesmo tipo.
+	|				|		
+	|				|->Estrutura indexada,armazena uma determenada quantidade de variável.
+	|
+	|--------->Matriz ou array- multi-dimensional
+					|->É uma vetor de vetores.
+					|
+					|->uma matriz é um vetor que possui duas ou mais dimensões.
+						
+	Registro
+	|	|	|->Estrutura que fornece um formato especializado para armazenar informações em memórias.
+	|	|	
+	|	|----->Permite armazenar mais de um tipo de dado.
+	|
+	|--------->É composto por campos que especificam cada uma das informações que o compõem.
+	|
+	|--------->todo registro tem nome e seus campos podem ser acessados por meio do uso do operador (.)
+	
+	Listas
+	|	|->Estrutura de dados do tipo lista,armazena dados de uma determinado tipo em uma ordem específica.
+	|
+	|----->Listas possuem tamanho ajustável,enquanto arrays possuem tamanho fixo.
+    	|
+	|----->Existe dois tipos.
+				|
+				|->Ligado
+				|		|->Existe nós onde cada um dos nós conhece o valor que está sendo armazenado em 
+				|		   seu interior,além de conhecer o elemento posterior a ele.Chamado de lista liada,
+				|		   pois os nós são amarrados com essa indicação de qual é o proximo nó.
+				|
+				|->Duplamente ligada
+						|->A diferença e que é bidirecional.Nessa lista,sabemos quem é o primeiro nó e seu 
+						   anterior,o que permite navegação reversa.
+						   
+	Pilhas
+	|	|->Estrutura de dados que serve como uma coleção de elementos e permite o acesso a somente um item
+	|	   de dados armazenado.
+	|			|->acesso restrito:somente um item pode ser lido ou removido por vez.
+	|
+	|----->Dois tipos:
+				|
+				|->Lifo ou Ueps
+				|		|->Apresenta o critério:o primeiro elemento a ser retirado é o ultimo que tiver 
+				|			sido inserido.
+				|
+				|->Filo ou Peps
+						|->Critério:o primeiro elemento a ser retirado é o primeiro que tiver sido inserido.
+						
+	Fila
+		|->estrutura de dados tipo fila admite remoção de elementos e inserção novos sujeitos a seguinte regra:
+		   o elemento removido é o que está na estrutura há mais tempo,ou seja o primeiro objeto inserido na fila
+		   e também o primeiro a ser removido,seguindo o conceito fifo.
+		    
+	Arvore
+		|->Estrutura de dados que organiza seus elementos de forma hierárquia,onde existe um elemento,
+			que fica no topo da árvore,chamado de raiz e existe os elementos subordinado a ele, que são
+			chamados de nós ou folhas
+				|-sempre da raiz para as folhas.
+				
+	Tabela Hast
+	|	|	|->Estrutura de dados epecial,que associa chaves de pesquisa a valores.
+	|	|
+	|	|----->	É uma generalização da ideia de array,porém utiliza uma função denominada HASHING para
+        |                espalhar os elementos,dentro do array que define a tabela.
+	|					|
+	|					|->permite a associação de valores e chaves.
+	|							|
+	|							|--------->Valores:é a posição	 ou índice onde o elemento se encontra.
+	|							|	
+	|							|--------->Chave:parte da informação que compõe o elemento a ser manipulado.
+	|
+	|--------->espalhar facilita a busca na estrutura de dados,poís a partir de uma chave podemos acessar de
+               forma rápida uma posição do array.
+
+	Grafos
+		|->estrutura que permite programas a seleção entre objetos.
+				|->os objetos são vértices ou nós do grafo.
+				|
+				|->os relacionamento são arestas.
+			

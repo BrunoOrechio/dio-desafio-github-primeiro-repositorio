@@ -1,0 +1,91 @@
+	Lógica de Programação
+			|->Significa apenas contextualizar a lógica na programação de computadores,
+	                   buscando a melhor sequência de ações para solucionar um problema.
+	   
+	Metacognição
+		|->Pensar como você pensa.
+	
+	Abstração
+		|->Habilidade de concentrar nos aspectos essênciais de um contexto qualquer,
+	          ignorando características menos importantes ou acidentais.
+		
+	Algoritmo
+		|->Sequência de passos bem definidos para resolver um problema.
+		
+	Pseudocódigo
+		|->É uma forma genérica de escrever um algoritm,utilizando uma linguagem simples.
+		
+	Fluxograma
+	    |	|->É uma ferramenta utilizada para representar graficamente o algoritmo,isto é,a sequência	
+	    |      lógica e coerente do fluxo de dados.
+	    |	
+            |-----> Um fluxograma é um tipo de diagrama e pode ser entendido esquemática de um processo.
+		       Podemos entende-lo na prática,como a documentação de passos necessários para execução de	
+ 		       um processo qualquer.
+	
+	Variáveis
+	|   |	|->Na programação,uma variável é um objeto(uma posição,frequentemente localizada na memória),
+	|   |      capaz de reter e representar um valor ou expressão.
+	|   |
+	|   |----->Tipos:Numéricas,Caracteres,Alfanuméricas ou Lógicas.
+	|
+	|--------->Constantes:são valores imutáveis e não são alteradas durante a vida útil do programa.
+		
+	Expressões Aritméticas
+		|	|->São expressões que utilizam operadores aritméticas e funções aritméticas envolvendo constantes e
+		|	   variáveis.
+		|	
+                |----->Operadores:soma +, subtração -, multiplicação *, divisão /, potenciação ^, porcentagem %.
+			
+	Expressões literais
+			|->São expressões com constantes e/ou variáveis que tem como resultado valores literais.
+		
+	Expressões Relacionais
+		|	|->São expressões com compostas por outras expressões ou variáveis numéricas,com operadores 
+		|	   relacionais retornam valores lógicos.
+		|
+		|----->maior que >, menor que <, igualdade ==, maior ou igual >=, menor ou igual <=, != diferente de.
+
+		Concatenação
+			|->É um termo usado em computação para designar a operação de unir o conteúdo de duas strings.
+			
+		Strings
+			|->É uma sequência de caracteres. 
+			
+		Estrutura de repetição
+			|->É uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de camadas,
+			   de acordo com uma condição ou um contador.
+			   
+		Linguagem de Programação
+			|->É uma liguagem escrita e formal que específica um conjunto de instruções e regras usadas,
+			   para gerar programas.
+				|	|
+				|	|->Alto Nível
+				|	|	|
+				|	|	|->Aquelas cuja sintaxe se aproxima mais da linguagem humana.
+				|	|
+				|	|->Baixo Nível	
+				|		|
+				|		|->É aquela que se aproxima mais da linguagem da máquina.
+				|
+				|--->Compiladas
+				|	    |
+				|	|->Linguagem de programação que o código fonte, e execultado diretamente pelo 
+				|			   sistema operacional ou pelo processador ,após tradução do compilador.
+				|			
+				|--->Interpretadas
+						|
+						|->Linguagem que o código fonte é execultado por programas de computador,
+							   chamando interpretados e em seguida executa pelo sistema.
+						
+		Portugol
+		|	|->cadeia:permite receber varios caracteres.
+		|
+		|----->Portugol studio
+				|->concatenar é o +
+				|->escreva
+				|	|->aparece na tela
+				|->leia->
+				        |->salva o conteúdo na variável
+					|->Se
+					    |->condição

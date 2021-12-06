@@ -1,0 +1,120 @@
+	Git
+	|	|->Software de versionamento de código.ajuda a criar e monitorar diferentes versões do código
+	|	|
+	|	|->Objetos internos do Git.
+	|			|
+	|			|->Bobs
+	|			|     |->arquivos ficam guardados dentro dele
+	|			|     |->contém metadado do git:tipo do objeto,tamanho string,tamanho do arquivo,entre outros.
+	|			|     |->Bloco básico de composição.
+	|			|     |->objeto que enca´sula o comportamento de diretorio e é usado para apontar para diretorios
+	|			|          que contém arquivos e por consquência apontar para aquivos também.
+	|			|
+	|			|->Tree
+    	|           		|     |->Armazenam blobs.
+	|			|     |->Armarzena e aponta tipos de blobs diferentes.
+   	|          		|     |->responsável por montar toda estrutura onde todos os arquivos,pode apontar tanto para
+    	|          	        |        blobs tanto para outras tree.
+	|			|			
+	|			|->Commit
+	|				  |->Objeto que vai juntar tudo,que vai dar sentido na alteração aponta para tree,parente,autor
+	|					 mensagems.
+	|
+	|->tracked
+	|	|->arquivos que o git está ciente sobre eles.
+	|
+	|->Untracked
+    	|       |->arquivos que o git não está ciente sobre ele.	
+	|
+	|->Unmodified
+	|	|->arquivo que ainda não sofre modificacão.
+	|
+	|->Modified
+	|	|->arquivo que foi modificado.
+	|
+	|->stage
+		|->conceito chave.
+		|->aonde ficam os aquivos que estão se preparando para fazer parte de outro agrupamento.
+		
+	GitHub
+		|->é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando Git.
+		|->[mensagens](Link):coloca link no github.
+		
+	Chave ssh
+		|->forma de estabelecer conecção segura e encriptada entre duas máquinas.
+			
+	sha
+		|->conjunto de funções hash criptográficas.
+		|->algoritmo de criptação.
+		|->gera conjunto de characteres identificados de 40 dígitos,únicos serve como identificador.
+		|->forma curta de representa um aequivo e seu estado.
+		
+	Markdowm
+		|->forma mais humana de escrever html.
+	
+	Termina/Prompt de Comando
+		|->dir:lista de diretorio contidos na pasta em que se está localizado.
+		|	|->no linux esse comando é ls.
+		|
+		|->cd:navega entre arquivos.
+		|		|->no linux esse comando é o mesmo.
+		|		|->comando cd .. retrocede um nível. 
+		|
+		|->cls:limpar terminal
+        	|        |->no linux esse comando é clear,com atalho é ctrl + l.
+		|
+		|->tab:auto completa
+		|
+		|->mkdir:cria uma pasta.
+		|		|->mesmo comando no linux.
+		|
+		|->echo:printa devolta no terminal uma frase ou texto.
+		|	>:redirecionador de fluxo.
+		|
+		|->del:deleta arquivos dentro de um repositório.
+        	|                 ^
+		|->seta para cima | :navega no histórico de comando.	
+        	|
+		|->rmdir:remove repositório com todos os arquivos dentro.		
+				|->no linux esse comando é rm -rf	
+			
+	Git Bash
+		|->openssl sha1:específica algoritmo de criptação.
+		|
+		|->ssh -keygen:gera chave.
+		|
+		|->cat:visualiza conteúdo de uma chave.
+		|
+		|->git clone:clona repositório.
+		|
+		|->git init:iniciar repositório do git.
+		|
+		|->git add:mover arquivos e versaliza.
+		|
+		|->git commit:criar commit.
+		|
+		|->ls -a:mostra arquivo oculto.
+       		 |
+		|->git config --global --unset prop.específica:ajusta configuração./altera a configuração.
+		|
+		|->git config --list:traz lista de todasas configurações que estãono git.
+		|
+		|->git config --global prop. específica:ajusta configuração/coloca propriedade.
+		|
+		|->git remote add origin link:passa repositório local para repositório remoto.
+		|
+		|->git remote:mostra lista de repositório que está no cadastro.
+		|
+		|->git add*:move arquivo para staged.
+		|
+		|->git pull origin master:ouxa conteúdo do github para máquina.
+		|
+		|->git push origin master:envia repositório local para repositório remoto.
+		|
+		|->git add . ou git add -a:adiciona todos os arquivos,prepara para mandar ao github.
+		|
+		|->git restore:volta para o anterior.
+		|
+		|->mv:move arquivo.
+	
+			
